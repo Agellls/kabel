@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Directory</title>
+    <!-- Include Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Additional CSS styles */
+    </style>
+</head>
+
+<body class="bg-gray-100">
+    <div class="container mx-auto p-4">
+        <h1 class="text-2xl font-bold mb-4">Employee Directory</h1>
+        <!-- Example database entries -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <!-- Example employee entry -->
+            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                <img src="profile_image_url.jpg" alt="Profile Image" class="w-full h-40 object-cover">
+                <div class="p-4">
+                    <h2 class="text-xl font-semibold mb-2">Employee Name</h2>
+                    <p class="text-gray-600 mb-2">Position</p>
+                    <p class="text-gray-500">ID: #1234</p>
+                </div>
+            </div>
+            <!-- Repeat this block for each database entry -->
+        </div>
+    </div>
+</body>
+
+</html>
